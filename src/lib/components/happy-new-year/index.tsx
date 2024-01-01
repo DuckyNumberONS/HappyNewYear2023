@@ -7,6 +7,7 @@ const HappyNewYear = () => {
   const audio = new Howl({
     src: ["/music/HPNY.mp3"],
   });
+  const [popupMeme, setPopupMeme] = useState(false);
   const [popup, setPopup] = useState(false);
   useEffect(() => {
     audio.play();
@@ -21,12 +22,12 @@ const HappyNewYear = () => {
 
   return (
     <div className="box-happy-newyear">
-      <div className="absolute top-[370px] right-0 left-0">
+      <div className="absolute top-[200px] right-0 left-0">
         <div className="w-full">
-          <h1 className="text-center text-4xl">
+          <h1 className="text-center text-4xl text-white">
             Happy New Year 2024 Nguyet Anh Xink Dep 🎉🎉🎉 <br />
           </h1>
-          <p className="text-center text-lg transition delay-1000 duration-300 ease-in-out mt-5">
+          <p className="text-center text-lg transition delay-1000 duration-300 ease-in-out mt-5 text-white">
             Anh chúc chúc em có năm mới thật vui vẻ và có nhiều sức khỏe để đấm
             nhau với deadline nha !!!!
           </p>
