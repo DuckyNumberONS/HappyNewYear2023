@@ -21,12 +21,12 @@ const HappyNewYear = () => {
 
   return (
     <div className="box-happy-newyear">
-      <div className="absolute top-[400px] right-0 left-0">
+      <div className="absolute top-[370px] right-0 left-0">
         <div className="w-full">
-          <h1 className="text-center text-lg">
+          <h1 className="text-center text-4xl">
             Happy New Year 2024 Nguyet Anh Xink Dep 🎉🎉🎉 <br />
           </h1>
-          <p className="text-center text-sm transition delay-1000 duration-300 ease-in-out mt-5">
+          <p className="text-center text-lg transition delay-1000 duration-300 ease-in-out mt-5">
             Anh chúc chúc em có năm mới thật vui vẻ và có nhiều sức khỏe để đấm
             nhau với deadline nha !!!!
           </p>
