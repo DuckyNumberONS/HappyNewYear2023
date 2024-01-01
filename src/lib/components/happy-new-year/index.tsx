@@ -31,7 +31,7 @@ const HappyNewYear = () => {
           </p>
           {popup && (
             <p className="transition delay-1000 duration-700 ease-in-out text-center mt-[150px]">
-              Nhất định anh sẽ cố gắng hơn để hiểu em hơn 🔥🔥🔥🔥 !!!
+              Am sâu sorry vì sự dần độn của anh trong năm quaaaaa !!!!
             </p>
           )}
         </div>
