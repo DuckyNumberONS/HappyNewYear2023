@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../happy-new-year/style.scss";
 import { Howl, Howler } from "howler";
+import Dog from "../dog";
 
 const HappyNewYear = () => {
   const audio = new Howl({
@@ -30,9 +31,13 @@ const HappyNewYear = () => {
             nhau với deadline nha !!!!
           </p>
           {popup && (
-            <p className="transition delay-1000 duration-700 ease-in-out text-center mt-[150px]">
-              Am sâu sorry vì sự dần độn của anh trong năm quaaaaa !!!!
-            </p>
+            <div className="mt-[80px] flex justify-center items-center gap-10">
+              <p className="transition delay-1000 duration-700 ease-in-out text-center ">
+                Am sâu sorry vì sự ngu ngơ, dần độn của anh trong thời gian
+                quaaaaa !!!!
+              </p>
+              <Dog />
+            </div>
           )}
         </div>
       </div>

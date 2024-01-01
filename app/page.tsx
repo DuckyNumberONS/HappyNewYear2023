@@ -55,19 +55,15 @@ const Home = () => {
 
   return (
     <>
-      <>
-        {/* <MainScreen /> */}
-        <div className="relative mt-10">
-          <button
-            onClick={handleOpenCv}
-            className="bg-[#ff5851] mb-4 w-full p-5 rounded-xl bottom-0 font-sans font-bold text-white hover:bg-[#6ce0e0] hover:text-[#ffee94] text-xl delay-100"
-          >
-            <h1>
-              Chiếc nút này chỉ hoạt động khi 00:00 ngày 1 tháng 1 năm 2024
-            </h1>
-          </button>
-        </div>
-      </>
+      {/* <MainScreen /> */}
+      <div className="relative mt-10">
+        <button
+          onClick={handleOpenCv}
+          className="bg-[#ff5851] mb-4 w-full p-5 rounded-xl bottom-0 font-sans font-bold text-white hover:bg-[#6ce0e0] hover:text-[#ffee94] text-xl delay-100"
+        >
+          <h1>Chiếc nút này chỉ hoạt động khi 00:00 ngày 1 tháng 1 năm 2024</h1>
+        </button>
+      </div>
     </>
   );
 };
